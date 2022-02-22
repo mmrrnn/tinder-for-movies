@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1and3011",
+    "title": "Inferno", 
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "rating": 5.3,
+    "imageUrl": "https://picsum.photos/id/11/1920/1080"
+  },
+  {
+    "id": "2301abc",
+    "title": "Star Wars: Episode VII - The Force Awakens", 
+    "summary": "Onec volutpat fringilla quam, a luctus ante accumsan ut.",
+    "rating": 8.2,
+    "imageUrl": "https://picsum.photos/id/22/1920/1080"
+  },
+  {
+    "id": "12kdk21",
+    "title": "The Godfather: Part II", 
+    "summary": "Vestibulum rutrum neque ac augue tempus, eget luctus ante venenatis.",
+    "rating": 10.0,
+    "imageUrl": "https://picsum.photos/id/33/1920/1080?grayscale"
+  },
+  {
+    "id": "99cat123",
+    "title": "Pulp Fiction", 
+    "summary": "Proin ullamcorper eros quis sollicitudin rutrum.",
+    "rating": 8.8,
+    "imageUrl": "https://picsum.photos/id/44/1920/1080"
+  },
+  {
+    "id": "12dog22",
+    "title": "The Shawshank Redemption", 
+    "summary": "Nunc sodales tellus a lectus sagittis imperdiet.",
+    "rating": 7.6,
+    "imageUrl": "https://picsum.photos/id/55/1920/1080"
+  },
+  {
+    "id": "97adnde22",
+    "title": "Citizen Kane", 
+    "summary": "Aliquam molestie felis vel ipsum lacinia, pulvinar aliquam enim fermentum.",
+    "rating": 5.7,
+    "imageUrl": "https://picsum.photos/id/66/1920/1080?grayscale"
+  },
+  {
+    "id": "3j2j2jn1",
+    "title": "The Wizard of Oz", 
+    "summary": "Phasellus a eros sed augue condimentum imperdiet.",
+    "rating": 6.4,
+    "imageUrl": "https://picsum.photos/id/77/1920/1080"
+  },
+  {
+    "id": "49fj449f",
+    "title": "Lawrence of Arabia", 
+    "summary": "Morbi vulputate dui sit amet sem auctor tristique id luctus dolor.",
+    "rating": 2.5,
+    "imageUrl": "https://picsum.photos/id/88/1920/1080"
+  },
+  {
+    "id": "f43f34f",
+    "title": "The Sound of Music", 
+    "summary": "Donec tempus quam vitae tellus fermentum suscipit. Mauris lobortis condimentum aliquam",
+    "rating": 4.5,
+    "imageUrl": "https://picsum.photos/id/99/1920/1080"
+  }
+]
