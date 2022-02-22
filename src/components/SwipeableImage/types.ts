@@ -1,6 +1,5 @@
 export type SwipeableImageProps = {
   src: string;
   alt: string;
-  onSwipedLeft?: VoidFunction;
-  onSwipedRight?: VoidFunction;
+  onSwiped?: VoidFunction;
 } & React.ImgHTMLAttributes<HTMLImageElement>;

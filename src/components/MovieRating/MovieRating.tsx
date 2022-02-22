@@ -29,8 +29,7 @@ const MovieRating = ({
       <SwipeableImage
         src={imageUrl}
         alt={title}
-        onSwipedLeft={onAccept}
-        onSwipedRight={onReject}
+        onSwiped={onReject}
       />
       <Grid container display="flex" justifyContent="space-between">
         <Button
