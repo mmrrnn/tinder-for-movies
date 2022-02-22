@@ -7,11 +7,10 @@ import { SwipeableImageProps } from './types';
 const SwipeableImage = ({
   src,
   alt,
-  onSwipedLeft = () => undefined,
-  onSwipedRight = () => undefined,
+  onSwiped = () => undefined,
   ...imgRestProps
 }: SwipeableImageProps) => {
-  const swipeHandlers = useSwipeable({ onSwipedLeft, onSwipedRight });
+  const swipeHandlers = useSwipeable({ onSwiped });
 
   return (
     <FullSizeImage
