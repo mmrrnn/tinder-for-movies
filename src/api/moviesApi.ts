@@ -1,7 +1,7 @@
-import { Movie } from "../types/Movie"
+import { Movie, MovieRate } from '../types/Movie'
 import movies from './mockedMovies.json';
 
-export const fetchMovies = (): Promise<Movie[]> => {
+export const getMovies = (): Promise<Movie[]> => {
   return new Promise((resolve) => {
     setTimeout(() => {
       // Simulate fetching movies
@@ -10,11 +10,9 @@ export const fetchMovies = (): Promise<Movie[]> => {
   });
 }
 
-export const sendMovieRating = async (movieId: string, ratingResult: boolean): Promise<void> => {
+export const sendMovieRating = async (movieId: string, movieRate: MovieRate): Promise<void> => {
     try {
-      const movieVerdict = ratingResult ? 'accept' : 'reject';
-
-      await fetch(`/recommendations/${movieId}/${movieVerdict}`, {
+      await fetch(`/recommendations/${movieId}/${movieRate}`, {
         method: 'PUT'
       });
     } catch (e) {

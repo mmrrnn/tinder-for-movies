@@ -24,7 +24,7 @@ const MovieRating = ({
 
   return (
     <Grid container display="flex" flexDirection="column" gap={2}>
-      <Typography variant="h3">{movieHeader}</Typography>
+      <Typography variant="h4">{movieHeader}</Typography>
       <Typography variant="subtitle1">{summary}</Typography>
       <SwipeableImage
         src={imageUrl}

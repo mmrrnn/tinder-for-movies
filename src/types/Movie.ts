@@ -5,3 +5,5 @@ export type Movie = {
   rating: number;
   imageUrl: string;
 }
+
+export type MovieRate = 'accept' | 'reject';

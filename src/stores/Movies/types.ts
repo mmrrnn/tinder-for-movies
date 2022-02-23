@@ -1,11 +1,12 @@
+import MoviesActions from './MoviesActions';
+
 import { Movie } from 'types/Movie';
 
-
-export type MovieStoreData = {
+export type MoviesStoreData = {
   movies: Movie[];
   currentMovie: Movie | null;
-  updateStore: MovieStoreSetter;
+  dispatch: MoviesStoreDispatcher;
 }
 
-export type MovieStoreProperties = Omit<MovieStoreData, 'updateStore'>;
-export type MovieStoreSetter = (property: Partial<MovieStoreProperties>) => void;
+export type MoviesStoreState = Omit<MoviesStoreData, 'dispatch'>;
+export type MoviesStoreDispatcher = (actionType: MoviesActions) => void;

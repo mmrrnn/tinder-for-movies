@@ -1,13 +1,15 @@
 import { Container } from '@mui/material';
 
-import { MovieStoreProvider } from 'stores/Movies';
+import { MoviesStoreProvider } from 'stores/Movies';
+
+import MoviesTinder from 'containers/MoviesTinder';
 
 function App() {
   return (
     <Container maxWidth="md">
-      <MovieStoreProvider>
-        App
-      </MovieStoreProvider>
+      <MoviesStoreProvider>
+        <MoviesTinder />
+      </MoviesStoreProvider>
     </Container>
   );
 }
