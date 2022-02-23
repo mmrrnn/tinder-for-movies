@@ -10,7 +10,6 @@ const MoviesTinder = () => {
 
   useEffect(() => {
     dispatch(MoviesActions.FETCH_MOVIES);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const acceptMovie = useCallback(() => {
@@ -21,7 +20,7 @@ const MoviesTinder = () => {
     dispatch(MoviesActions.ACCEPT_MOVIE)
   }, [dispatch]);
 
-  return !!currentMovie ? (
+  return currentMovie ? (
     <MovieRating
       movie={currentMovie}
       onAccept={acceptMovie}
