@@ -1,9 +1,13 @@
 import { Container } from '@mui/material';
 
+import { MovieStoreProvider } from 'stores/Movies';
+
 function App() {
   return (
     <Container maxWidth="md">
-      App
+      <MovieStoreProvider>
+        App
+      </MovieStoreProvider>
     </Container>
   );
 }
